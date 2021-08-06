@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:layout_marginTop="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/backgroud"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_menu_24" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="@android:dimen/app_icon_size"
+            android:layout_marginLeft="@android:dimen/app_icon_size"
+            android:layout_marginVertical="@android:dimen/app_icon_size"
+            android:layout_marginHorizontal="@android:dimen/app_icon_size"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/circulo"
+            app:itemIconTint="@color/blue"
+            app:menu="@menu/bottonav" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
